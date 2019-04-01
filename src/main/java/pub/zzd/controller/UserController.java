@@ -29,11 +29,30 @@ public class UserController {
         return list;
     }
 
+    /**
+     * 根据user_id获取user信息
+     * @param user_id 入参
+     * @return
+     */
     @GetMapping("getUserInfoByUserId")
     @ResponseBody
     public UserInfo getUserInfoByUserId(@RequestParam("user_id")Integer user_id){
         UserInfo userInfo = userService.getUserInfoByUserId(user_id);
         return userInfo;
     }
+
+    /**
+     * 更新去向登记表
+     * @param user_id
+     * @return
+     */
+    @GetMapping("updateRegistration")
+    @ResponseBody
+    public Integer updateRegistration(@RequestParam("user_id")Integer user_id){
+        //
+        return 1;
+    }
+
+
 
 }

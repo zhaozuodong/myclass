@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("pub.zzd.dao")
-public class MyclassApplication {
+public class ApplicationRunMain {
 
     public static void main(String[] args) {
-        SpringApplication.run(MyclassApplication.class, args);
+        SpringApplication.run(ApplicationRunMain.class, args);
     }
 
 }
