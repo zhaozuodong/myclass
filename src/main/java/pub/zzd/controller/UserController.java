@@ -42,7 +42,7 @@ public class UserController {
     }
 
     /**
-     * 更新去向登记表
+     * 更新节假日去向登记表
      * @param user_id
      * @return
      */
